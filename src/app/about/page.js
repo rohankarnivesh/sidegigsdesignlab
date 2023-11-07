@@ -3,6 +3,7 @@ import Footer from "../components/Footer"
 import About from "./About"
 import Abo from "./Abo"
 import Career from "./Career"
+import Opening from "./Opening"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <About/>
         <Abo/>
         <Career/>
+        <Opening/>
       </div>
       <Footer />
     </main>
