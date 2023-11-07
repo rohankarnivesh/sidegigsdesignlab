@@ -38,7 +38,7 @@ const openingData=[
 export default function Opening() {
     const ref = useRef(null);
   return (
-    <div ref={ref} className='px-4 md:px-96 flex flex-col bg-[#f0f0f0] text-[#131313]'>
+    <div ref={ref} className='px-4 lg:px-28 2xl:px-96 flex flex-col bg-[#f0f0f0] text-[#131313]'>
          {openingData.map((opening, index) => (
                   <div
                       key={index}

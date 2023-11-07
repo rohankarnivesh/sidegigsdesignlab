@@ -4,11 +4,11 @@ import Image from 'next/image'
 export default function Collaborate() {
   return (
     <div className='bg-[#f0f0f0] text-[#131313] px-10 py-10'>
-        <div className='lg:px-72'>
+        <div className='lg:px-28 xl:px-72'>
             <h1 className='text-center text-3xl font-bold md:text-5xl'>How We Collaborate</h1>
             <p className='text-center lg:text-2xl font-medium py-8'>We are a united force of individual creators, startup champions, UI/UX designers, product designers, front-end and back-end developers, graphic artists, product photographers, and commercial videographers. Our collaborative spirit knows no bounds as we work harmoniously to transform ideas into impactful solutions for our valued clients, whether they&apos;re solo creators or innovative startups</p>
         </div>
-        <div className='grid md:grid-cols-3 gap-8 lg:px-72 justify-center lg:justify-between'>
+        <div className='grid md:grid-cols-3 gap-8 2xl:px-72 lg:px-28 justify-center xl:justify-between'>
             <div className='flex flex-col text-center'>
                 <Image src="/images/video.png" width={200} height={200} alt="" className='w-full flex justify-center'/>
                 <h1 className='bg-[#131313] text-[#f0f0f0] py-4'>TOGETHER</h1>

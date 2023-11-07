@@ -2,21 +2,26 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
+
 export default function Hero(){
+
     return (
         <section className="max-h-screen bg-[#1B1B1B] w-full">
-            <div className="text-center text-6xl lg:text-9xl md:text-2xl p-24">
-                <h2 className="text-center">
+            <div className="texh text-center text-5xl lg:text-6xl 2xl:text-8xl md:text-6xl p-24 lg:pb-10">
+                <h2 className="text-center leading-snug">
                     Every Great
-                    <Image src="/images/smile.gif" alt="smile" width={50} height={50} className="inline lg:w-28" /><br/>
+                    <Image src="/images/smile.gif" alt="smile" width={50} height={50} className="inline lg:w-18 2xl:w-24" /><br/>
                     
-                    Design Begins<br className='hidden lg:block'/>
+                    Design Begins<br className='hidden md:block'/>
                     <br className="sm:hidden" />
                     with a{' '}
-                    <span style={{ whiteSpace: 'nowrap' }}>
+                    <span 
+                         
+                    style={{ whiteSpace: 'nowrap' }}>
                         St
-                        <Image src="/eye.gif" alt="o" width={50} height={50} className="inline lg:w-28" />
-                        <Image src="/eye.gif" alt="o" width={50} height={50} className="inline lg:w-28" />
+                        <Image
+                         src="/eye.gif" alt="o" width={50} height={50} className="inline lg:w-18 2xl:w-24" />
+                        <Image src="/eye.gif" alt="o" width={50} height={50} className="inline lg:w-18 2xl:w-24" />
                         ry 
                     </span>
                 </h2>

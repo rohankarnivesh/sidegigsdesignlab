@@ -9,7 +9,7 @@ export default function Project() {
         actions.resetForm();
     };
     return (
-        <div className='pt-10 px-4 md:px-96 bg-[#f0f0f0] text-[#131313]'>
+        <div className='pt-10 px-4 md:px-24 2xl:px-72 bg-[#f0f0f0] text-[#131313]'>
             <div className='grid md:grid-cols-2 px-4 justify-center py-10'>
                 <div className='px-4 flex flex-col justify-center'>
                     <Image src="/images/smile.gif" width={100} height={100} alt='' className='' />

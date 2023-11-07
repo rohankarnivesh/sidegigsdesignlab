@@ -10,7 +10,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className='grid md:grid-cols-2 md:px-80 bg-[#f0f0f0] justify-center gap-3 py-14 px-4'>
+    <div className='grid lg:grid-cols-2 md:px-28 2xl:px-80 bg-[#f0f0f0] justify-center gap-3 py-14 px-4'>
       <div className='text-[#131313]'>
         <h1 className='text-4xl font-semibold'>Let&apos;s get started -
           Tell us about your project

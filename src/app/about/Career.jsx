@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Career() {
   return (
-    <div className='bg-[#f0f0f0] text-[#131313] py-8 px-6 md:px-96'>
+    <div className='bg-[#f0f0f0] text-[#131313] py-8 px-6 2xl:px-96 lg:px-28'>
         <h3 className='text-3xl font-semibold'>CAREER</h3>
         <h1 className='text-4xl md:text-5xl font-bold'>Current Openings</h1>
           <p className='py-4'>“If you believe your skills align with our team&apos;s vision, we invite you to get in touch with us. Should you feel you are a suitable candidate, kindly forward your email to <span className='font-semibold'>sidegigsdesignlab@gmail</span> come along with your comprehensive portfolio and professional experience. <br />

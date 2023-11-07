@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Abo() {
   return (
-    <div className='px-6 grid md:grid-cols-2 bg-[#f0f0f0] text-[#131313] pt-10 text-center md:px-96'>
+    <div className='px-6 md:px-24 grid lg:grid-cols-2 bg-[#f0f0f0] text-[#131313] pt-10 text-center 2xl:px-96'>
           <div className='flex flex-col md:px-2'>
               <h3 className='text-left md:text-4xl font-semibold text-xl mb-4' >We hired people who are very passionate about what they do</h3>
               <p className='text-base lg:text-xl text-left'>Within Our Design Agency, we&apos;re a community of freelancers from around the world. Our mission is to collaborate and provide creative solutions for our clients.</p>

@@ -64,17 +64,17 @@ export default function Services() {
     animate: { y: 0, opacity: 1 },
   };
   return (
-    <div className="bg-[#f0f0f0] text-black text-center text-2xl lg:px-96 px-4 lg:text-4xl font-bold py-10" id='services'>
+    <div className="bg-[#f0f0f0] text-black text-center text-2xl lg:px-32 2xl:px-96 px-4 lg:text-4xl font-bold py-10" id='services'>
         <h1 className='mb-16'>THE SERVICE WE PROVIDE FOR YOU</h1>
         <div>
-            <ul ref={ref} className='grid lg:grid-cols-4 gap-10'>
+            <ul ref={ref} className='grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10'>
                 {serviceData.map((service, index) => (
                   <motion.li
                       key={index}
                       variants={cardVariants}
                       initial="initial"
                       animate={isInView ? "animate" : "initial"}
-                      transition={{ duration: 0.3, delay: index * 0.4 }}
+                      transition={{ duration: 0.8, delay: index * 0.4 }}
                       className="lg:px-0 px-10 w-full"
                   >
                     <ServiceCard
@@ -94,7 +94,7 @@ export default function Services() {
               <p className='text-base font-normal lg:text-xl text-justify px-4'>Side Gigs Design Lab was established on October 4th, 2023, by a group of passionate digital enthusiasts. However, we&apos;re not your ordinary creative agency; we&apos;re a vibrant and professional community. Join us for straightforward solutions infused with a touch of innovation and creativity!.
               </p>
         </div>
-        <div className='mt-20 grid md:grid-cols-2 lg:gap-44 px-4'>
+        <div className='mt-20 grid md:grid-cols-2 xl:gap-44 px-2'>
             <div>
                 <h3 className='lg:text-left text-md mb-4' >HOW WE WORK?</h3>
                 <p className='text-lg lg:text-2xl text-left font-medium'>Our approach thrives on four guiding principles: Simplicity, Functionality, the Art of Side Gigs, and the Power of Partnership.</p>
@@ -128,7 +128,7 @@ export default function Services() {
             </div>
             <div className='flex flex-col justify-center lg:py-px py-8'>
                 <Image src="/images/thoughts.svg" width={400} height={300} alt="" className='lg:w-96'/>
-                <Link href="" className='border rounded-md text-xl lg:mr-20 font-medium bg-[#CEF62E] mt-8 py-2 transition-all ease-in-out hover:bg-[#131313] hover:text-[#CEF62E]'>Get a Free Consultation</Link>
+                <Link href="" className='border rounded-md text-xl xl:mr-20 font-medium bg-[#CEF62E] mt-8 py-2 transition-all ease-in-out hover:bg-[#131313] hover:text-[#CEF62E]'>Get a Free Consultation</Link>
             </div>
         </div>
     </div>
