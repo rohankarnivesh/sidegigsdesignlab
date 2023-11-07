@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='flex flex-col justify-center pt-10 text-center md:px-96 bg-[#f0f0f0] text-[#131313]'>
         <div>
-            <h1 className='md:text-4xl text-2xl font-semibold'>Founders and Main Host <Image src="/images/sparkle.svg" width={52} height={52} alt='' className='inline'/></h1>
+            <h1 className='md:text-4xl text-2xl font-semibold'>Founders and Main Host <Image src="../images/sparkle.svg" width={52} height={52} alt='' className='inline'/></h1>
             <div className='flex flex-col'>
                 <div className='grid md:grid-cols-2 justify-items-center'>
                     <Image src="/images/1.svg" width={350} height={300} alt='' className='py-4 md:w-[500px]'/>
