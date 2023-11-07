@@ -17,10 +17,10 @@ const Navbar = () => {
             className="lg:w-[280px]"
             alt="logo"/>
         <ul className="hidden md:flex items-center gap-10 lg:gap-[48px]">
-          <Link href="" className="bg-[#CEF62E] text-[#131313] p-2">SERVICE</Link>
-          <Link href="../about" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">ABOUT US</Link>
-          <Link href="products" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">PRODUCTS</Link>
-          <Link href="project" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">START A PROJECT</Link>
+          <Link href="/" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">SERVICE</Link>
+          <Link href="/about" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">ABOUT US</Link>
+          <Link href="/product" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">PRODUCTS</Link>
+          <Link href="/project" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">START A PROJECT</Link>
         </ul>
         <HiMenuAlt3
           size={30}
@@ -40,17 +40,17 @@ const Navbar = () => {
             onClick={() => setShowMobileMenu(false)}
           />
 
-          <ul className="pt-[30px] items-center flex flex-col gap-8">
-            <Link href="services" className="bg-[#CEF62E] text-[#131313] p-2" mobileMenu>
+          <ul className="pt-2 items-center flex flex-col gap-8">
+            <Link href="/" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2" mobileMenu>
             SERVICE
             </Link>
-            <Link href="about" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2" mobileMenu>
+            <Link href="/about" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2" mobileMenu>
             ABOUT US
             </Link>
-            <Link href="products" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2" mobileMenu>
+            <Link href="/product" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2" mobileMenu>
             PRODUCTS
             </Link>
-            <Link href="project" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2" mobileMenu>
+            <Link href="/project" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2" mobileMenu>
             START A PROJECT
             </Link>
           </ul>
