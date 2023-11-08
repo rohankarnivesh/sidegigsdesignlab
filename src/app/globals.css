@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 *{
-  font-family: 'Righteous', sans-serif;
   scroll-behavior: smooth;
 }
 :root {
