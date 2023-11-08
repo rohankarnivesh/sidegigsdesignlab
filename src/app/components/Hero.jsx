@@ -12,10 +12,10 @@ export default function Hero(){
                  initial={{ opacity: 0, scale: 0.5 }}
                  animate={{ opacity: 1, scale: 1 }}
                  transition={{
-                   duration: 0.3,
-                   ease: [0, 0.71, 0.2, 1.01],
+                   duration: 1,
+                   ease: [0, 0.71, 0.5, 1.01],
                    scale: {
-                     type: "bounce",
+                     type: "spring",
                      damping: 5,
                      stiffness: 100,
                      restDelta: 0.001
