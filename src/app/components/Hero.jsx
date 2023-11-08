@@ -22,7 +22,7 @@ export default function Hero(){
                    }
                  }}
                 className="texh text-center text-5xl lg:text-6xl 2xl:text-8xl md:text-6xl p-24 lg:pb-10">
-                <h2 className="text-center righteous-heading leading-snug">
+                <h2 className="text-center font-semibold righteous-heading leading-snug">
                     Every Great
                     <Image src="/images/smile.gif" alt="smile" width={50} height={50} className="inline lg:w-18 2xl:w-24" /><br/>
                     
