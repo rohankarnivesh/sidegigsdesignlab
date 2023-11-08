@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Hero(){
 
     return (
-        <section className="max-h-screen bg-[#1B1B1B] w-full">
+        <section className="max-h-screen bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-700 w-full">
             <motion.div
                  initial={{ opacity: 0, scale: 0.5 }}
                  animate={{ opacity: 1, scale: 1 }}

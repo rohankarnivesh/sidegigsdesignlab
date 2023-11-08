@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function ServiceCard({iconUrl, title, demo}) {
   return (
       <div className='grid justify-center text-[#f0f0f0] font-medium'>
-          <div className="bg-[#131313] lg:w-64 w-72 2xl:w-full h-60 md:h-64 text-left px-6 border rounded-2xl py-12">
+          <div className="bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-700 lg:w-64 w-72 2xl:w-full h-60 md:h-64 text-left px-6 border rounded-2xl py-12">
               <Image src={iconUrl} width={58} height={58} alt="service-card"/>
               <h3 className='text-xl lg:text-2xl mt-6'>{title}</h3>
           </div>
