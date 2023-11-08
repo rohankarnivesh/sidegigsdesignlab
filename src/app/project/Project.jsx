@@ -20,7 +20,7 @@ export default function Project() {
                 <div className='px-4 md:bg-[#131313] md:px-14 py-10 rounded-2xl mt-10 md:text-[#f0f0f0]'>
 
                     <h1 className='font-semibold text-xl lg:text-3xl'>Start A Project</h1>
-                    <p className='pt-4'>Our friendly Team Love to hear your Ideas</p>
+                    <p className='pt-4'>Our Friendly Team Love To Hear Your Ideas</p>
                     <Formik
                         initialValues={{ firstName: '', email: '', service: '' }}
                         validate={values => {

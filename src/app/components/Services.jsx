@@ -128,7 +128,7 @@ export default function Services() {
             </div>
             <div className='flex flex-col justify-center lg:py-px py-8'>
                 <Image src="/images/thoughts.svg" width={400} height={300} alt="" className='lg:w-96'/>
-                <Link href="" className='border rounded-md text-xl xl:mr-20 font-medium bg-[#CEF62E] mt-8 py-2 transition-all ease-in-out hover:bg-[#131313] hover:text-[#CEF62E]'>Get a Free Consultation</Link>
+                <Link href="/project" className='border rounded-md text-xl xl:mr-20 font-medium bg-[#CEF62E] mt-8 py-2 transition-all ease-in-out hover:bg-[#131313] hover:text-[#CEF62E]'>Get a Free Consultation</Link>
             </div>
         </div>
     </div>
