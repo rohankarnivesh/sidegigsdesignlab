@@ -10,7 +10,7 @@ const Navbar = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   return (
-    <nav className="fixed flex lg:px-28 2xl:px-72 justify-between mx-auto border border-none top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 py-10 px-6">
+    <nav className="fixed flex font-medium lg:px-28 2xl:px-72 justify-between mx-auto border border-none top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 py-10 px-6">
         <Image src="/logo.svg" 
             width={250}
             height={250}
