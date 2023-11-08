@@ -12,7 +12,7 @@ export default function About() {
                 </div>
             </div>
         </div>
-          <div className='mt-6 px-6 pb-6'>
+          <div className='mt-6 px-6 py-16'>
               <h1 className='md:text-4xl pb-4 text-2xl font-semibold'><Image src="/images/sparkle.svg" width={52} height={52} alt='' className='inline' />About and History</h1>
               <div className='grid md:px-12 md:grid-cols-2 text-left'>
                   <div className='py-4 md:px-6'>
@@ -34,7 +34,7 @@ export default function About() {
                   </div>
               </div>
           </div>
-          <div className='flex justify-center py-10'>
+          <div className='flex justify-center py-16'>
             <Image src="/images/test.svg" width={400} height={350} alt='' className='md:w-[600px]'/>
           </div>
     </div>

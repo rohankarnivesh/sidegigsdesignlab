@@ -24,7 +24,6 @@ const Navbar = () => {
         </ul>
         <HiMenuAlt3
           size={30}
-          
           className="block md:hidden cursor-pointer text-white"
           onClick={() => setShowMobileMenu((prev) => !prev)}
         />
