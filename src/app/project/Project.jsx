@@ -10,14 +10,14 @@ export default function Project() {
     };
     return (
         <div className='pt-10 px-4 md:px-24 2xl:px-72 bg-[#f0f0f0] text-[#131313]'>
-            <div className='grid md:grid-cols-2 px-4 justify-center py-10'>
+            <div className='grid min-[1024px]:grid-cols-2 px-4 justify-center py-10'>
                 <div className='px-4 flex flex-col justify-center'>
                     <Image src="/images/smile.gif" width={100} height={100} alt='' className='' />
                     <h1 className='text-3xl font-semibold py-4'>Let&apos;s Talk</h1>
                     <p className='md:text-xl pb-4'>Have some big idea or brand to develop and need help? Then reach out we&apos;d love to hear about your project and provide help.</p>
                     <p className='md:text-xl'>Share your details and we&apos;ll get in contact with you and discuss your project over an initial 30-minute discovery call.</p>
                 </div>
-                <div className='px-4 md:bg-[#131313] md:px-14 py-10 rounded-2xl mt-10 md:text-[#f0f0f0]'>
+                <div className='px-4 min-[1024px]:bg-[#1b1b1b] min-[1024px]:px-14 py-10 rounded-2xl mt-10 min-[1024px]:text-[#f0f0f0]'>
 
                     <h1 className='font-semibold text-xl lg:text-3xl'>Start A Project</h1>
                     <p className='pt-4'>Our Friendly Team Love To Hear Your Ideas</p>

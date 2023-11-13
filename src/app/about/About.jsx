@@ -35,7 +35,7 @@ export default function About() {
               </div>
           </div>
           <div className='flex justify-center py-16'>
-            <Image src="/images/test.svg" width={400} height={350} alt='' className='md:w-[600px]'/>
+            <Image src="/images/test.svg" width={350} height={350} alt='' className='min-[600px]:w-[600px]'/>
           </div>
     </div>
   )
