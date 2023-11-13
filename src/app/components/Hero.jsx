@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function Hero(){
 
     return (
-        <section className="max-h-screen bg-[url('/bg.png')] bg-cover w-full">
+        <section className="max-h-screen bg-[url('/bg.png')] bg-cover bg-fixed w-full">
                 {/* <div className='absolute overflow-hidden'>
                     <Image src="/land.png" width={100} height={200} className='md:w-[200px]' alt=''/>
                 </div> bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-700*/}
