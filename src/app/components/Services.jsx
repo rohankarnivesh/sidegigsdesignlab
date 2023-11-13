@@ -88,7 +88,7 @@ export default function Services() {
                 ))}
             </ul>
         </div>
-        <div className="mt-20 px-10 leading-loose">
+        <div className="mt-20 px-8 leading-loose">
             <h2>WHY WE STARTED SIDE GIGS DESIGN LABS</h2>
               <p className='text-base font-normal lg:text-xl text-justify px-4 py-8'>We&apos;re a team of freelancers who are crazy about creativity and dedicated to delivering top-notch services. We don&apos;t just focus on being budget-friendly; we&apos;re all about giving you incredible value without emptying your wallet. Our secret ingredient? Efficiency. We get your projects done fast and flawlessly.</p>
               <p className='text-base font-normal lg:text-xl text-justify px-4'>Side Gigs Design Lab was established on October 4th, 2023, by a group of passionate digital enthusiasts. However, we&apos;re not your ordinary creative agency; we&apos;re a vibrant and professional community. Join us for straightforward solutions infused with a touch of innovation and creativity!.
