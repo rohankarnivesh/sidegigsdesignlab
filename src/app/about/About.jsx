@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='flex flex-col justify-center pt-10 text-center 2xl:px-96 bg-[#f0f0f0] text-[#131313]'>
         <div>
-            <h1 className='md:text-4xl text-2xl font-semibold'>Founders and Main Host <Image src="/images/sparkle.svg" width={52} height={52} alt='' className='inline'/></h1>
+            <h1 className='md:text-4xl text-2xl font-semibold'>Founders and Main Host <Image src="/sparkle.svg" width={52} height={52} alt='' className='inline'/></h1>
             <div className='flex flex-col'>
                 <div className='grid md:grid-cols-2 justify-items-center'>
                     <Image src="/images/1.svg" width={350} height={300} alt='' className='py-4 lg:w-[500px]'/>
@@ -13,7 +13,7 @@ export default function About() {
             </div>
         </div>
           <div className='mt-6 px-6 py-16'>
-              <h1 className='md:text-4xl pb-4 text-2xl font-semibold'><Image src="/images/sparkle.svg" width={52} height={52} alt='' className='inline' />About and History</h1>
+              <h1 className='md:text-4xl pb-4 text-2xl font-semibold'><Image src="/sparkle.svg" width={52} height={52} alt='' className='inline' />About and History</h1>
               <div className='grid md:px-12 md:grid-cols-2 text-left'>
                   <div className='py-4 md:px-6'>
                       <h2 className=' text-xl font-semibold'>Founders And Main Host ?</h2>

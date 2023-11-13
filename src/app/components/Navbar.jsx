@@ -16,7 +16,7 @@ const Navbar = () => {
             height={250}
             className="xl:w-[280px]"
             alt="logo"/>
-        <ul className="hidden md:flex items-center gap-10 xl:gap-[48px]">
+        <ul className="hidden min-[900px]:flex items-center gap-10 xl:gap-[48px]">
           <Link href="/" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">SERVICE</Link>
           <Link href="/about" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">ABOUT US</Link>
           <Link href="/product" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">PRODUCTS</Link>
@@ -24,12 +24,12 @@ const Navbar = () => {
         </ul>
         <HiMenuAlt3
           size={30}
-          className="block md:hidden cursor-pointer text-white"
+          className="block min-[900px]:hidden cursor-pointer text-white"
           onClick={() => setShowMobileMenu((prev) => !prev)}
         />
 
         <div
-          className={`block md:hidden w-full fixed ${
+          className={`block min-[900px]:hidden w-full fixed ${
             !showMobileMenu ? "-top-[410px]" : "top-0"
           } left-0 bg-[#151515] text-white h-[310px] transition-all duration-[800ms] shadow-xl z-10 py-8 px-12 rounded-b-xl`}
         >
