@@ -11,11 +11,13 @@ const Navbar = () => {
 
   return (
     <nav className="fixed flex font-medium lg:px-28 2xl:px-72 justify-between mx-auto border border-none top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 py-10 px-6">
-        <Image src="/logo.svg" 
+        <Link href="/">
+          <Image src="/logo.svg" 
             width={250}
             height={250}
             className="xl:w-[280px]"
             alt="logo"/>
+        </Link>
         <ul className="hidden min-[900px]:flex items-center gap-10 xl:gap-[48px]">
           <Link href="/" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">SERVICE</Link>
           <Link href="/about" className="hover:bg-[#CEF62E] hover:text-[#131313] p-2">ABOUT US</Link>

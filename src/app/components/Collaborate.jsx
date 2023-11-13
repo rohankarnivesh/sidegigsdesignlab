@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 export default function Collaborate() {
   return (
-    <div className='bg-[#f0f0f0] text-[#131313] px-10 py-10'>
-        <div className='lg:px-28 xl:px-72'>
+    <div className='bg-[#f0f0f0] text-[#131313] px-10 leading-loose py-10'>
+        <div className='lg:px-28 xl:px-72 pb-5'>
             <h1 className='text-center text-3xl font-bold md:text-5xl'>How We Collaborate</h1>
-            <p className='text-center lg:text-2xl font-medium py-8'>We are a united force of individual creators, startup champions, UI/UX designers, product designers, front-end and back-end developers, graphic artists, product photographers, and commercial videographers. Our collaborative spirit knows no bounds as we work harmoniously to transform ideas into impactful solutions for our valued clients, whether they&apos;re solo creators or innovative startups</p>
+            <p className='lg:text-center lg:text-2xl text-justify font-medium py-10'>We are a united force of individual creators, startup champions, UI/UX designers, product designers, front-end and back-end developers, graphic artists, product photographers, and commercial videographers. Our collaborative spirit knows no bounds as we work harmoniously to transform ideas into impactful solutions for our valued clients, whether they&apos;re solo creators or innovative startups</p>
         </div>
         <div className='grid md:grid-cols-3 gap-8 2xl:px-72 lg:px-28 justify-center xl:justify-between'>
             <div className='flex flex-col text-center'>

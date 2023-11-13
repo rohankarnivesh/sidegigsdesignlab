@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 export default function Who() {
   return (
-    <div className="bg-[#f0f0f0] text-black py-16 flex flex-col justify-center" id='who'>
+    <div className="bg-[#f0f0f0] leading-loose text-black py-16 flex flex-col justify-center" id='who'>
         <h2 className='text-center text-2xl font-semibold'>WHO WE ARE</h2>
         <h2 className='text-center text-3xl py-10 px-16 lg:text-5xl font-semibold 2xl:px-80'>We&apos;re a remote tribe of creatives, transforming startups into digital wonders, one project at a time</h2>
         <div className='text-center mt-12'>
