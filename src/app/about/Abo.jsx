@@ -35,7 +35,7 @@ export default function Abo() {
               </ul>
           </div>
           <div className='flex justify-center py-6'>
-              <Image src="/header-image.svg" width={350} height={350} alt='' className='md:w-[500px] '/>
+              <Image src="https://res.cloudinary.com/dwevgksvg/image/upload/v1699891875/sidegigs/lwgwnxkcc8xa0mn50ko5.svg" width={350} height={350} alt='' className='md:w-[500px] '/>
           </div>
 </div>
   )
